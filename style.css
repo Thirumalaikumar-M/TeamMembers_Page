@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.team-card{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: #fff;
+    height: 100%;
+}
+.team-card .profile-pic{
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+.team-card .member-details{
+    padding-left: 30px;
+}
+.team-card .member-details h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: tomato;
+}
+.team-card .member-details span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+.team-card .member-details span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: tomato;
+    bottom: 0;
+    left: 0;
+}
+.team-card .member-details p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.team-card .socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+.team-card .socialmedia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+}
+.team-card .socialmedia a i{
+    color: tomato;
+    font-size: 16px;
+    margin: 0 2px;
+}
+.team-card .socialmedia a+a{
+    margin-left: 8px;
+}
+.team-card .socialmedia a:hover{
+    background: tomato;
+}  
+.team-card .socialmedia a:hover i{
+    color: #fff;
+}
+.head{
+    padding: 40px 0 10px 0;
+    text-align: center;  
+}
+.head h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    position: relative;
+    color: tomato;
+}
